@@ -16,14 +16,7 @@
               <p class="subtitle">
                 What can I do for you?
               </p>
-              <figure class="image is-1by1 ">
-                <opti-image
-                  :src="require('~/assets/uploads/contact-person.jpg').src"
-                  :srcset="
-                    require('~/assets/uploads/contact-person.jpg').srcSet
-                  "
-                />
-              </figure>
+              <figure class="image is-1by1 "></figure>
               <br />
               <div class="content">
                 <p>

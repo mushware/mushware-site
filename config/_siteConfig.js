@@ -23,17 +23,8 @@ export default {
       link: '/about'
     },
     {
-      name: 'Contact',
-      link: '/contact'
-    },
-    {
       name: 'Categories',
       link: '/categories'
-    },
-    {
-      name: 'Github Repo',
-      link: 'https://github.com/mushware/mushware-site',
-      target: '_blank'
     }
   ],
   hero: {
