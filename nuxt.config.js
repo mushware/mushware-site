@@ -19,6 +19,7 @@ export default {
    */
   head: head,
   generate: {
+    minify: false,
     routes: otherRoutes.concat(getDynamicPaths(routeMap))
   },
   /*
