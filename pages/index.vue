@@ -46,8 +46,4 @@ export default {
 }
 </script>
 
-<style>
-.home-page .under-subtitle {
-  border-top: none;
-}
-</style>
+.home-page .under-subtitle { border-top: none; }

@@ -26,30 +26,31 @@
         </div>
       </div>
       <div class="mush-particles">
-        <vue-particles
-          color="#ff0000"
-          :particle-opacity="0.7"
-          lines-color="#ffffff"
-          :particles-number="80"
-          shape-type="circle"
-          :particle-size="5"
-          :lines-width="2"
-          :line-linked="true"
-          :line-opacity="0.4"
-          :lines-distance="150"
-          :move-speed="3"
-          :hover-effect="true"
-          hover-mode="grab"
-          :click-effect="true"
-          click-mode="push"
-        ></vue-particles>
+        <client-only>
+          <MushParticles
+            color="#DCBA8F"
+            :particles-number="100"
+            shape-type="star"
+            :particle-size="3"
+            movement-direction="top"
+            lines-color="#dedede"
+            :line-linked="false"
+            :move-speed="0.75"
+          />
+        </client-only>
       </div>
     </div>
   </section>
 </template>
+
 <script>
+import MushParticles from '~/components/MushParticles.vue'
+
 export default {
   name: 'SiteHero',
+  components: {
+    MushParticles
+  },
   props: {
     title: { type: String, default: '' },
     subtitle: { type: String, default: '' },
