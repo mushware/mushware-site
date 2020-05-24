@@ -74,7 +74,7 @@ export default {
     },
     hoverEffect: {
       type: Boolean,
-      default: false
+      default: true
     },
     hoverMode: {
       type: String,
@@ -82,11 +82,11 @@ export default {
     },
     clickEffect: {
       type: Boolean,
-      default: false
+      default: true
     },
     clickMode: {
       type: String,
-      default: 'push'
+      default: 'bubble'
     }
   },
   data () {
@@ -220,17 +220,17 @@ export default {
             },
             "modes": {
               "grab": {
-                "distance": 140,
+                "distance": 192,
                 "line_linked": {
                   "opacity": 1
                 }
               },
               "bubble": {
-                "distance": 400,
-                "size": 40,
-                "duration": 2,
+                "distance": 192,
+                "size": 12,
+                "duration": 1,
                 "opacity": 8,
-                "speed": 3
+                "speed": 4
               },
               "repulse": {
                 "distance": 200,

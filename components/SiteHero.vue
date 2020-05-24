@@ -179,6 +179,7 @@ export default {
 }
 
 .mush-particles {
+  z-index: 4;
   position: absolute;
   top: 0;
   left: 0;
