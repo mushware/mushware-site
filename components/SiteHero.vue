@@ -1,26 +1,48 @@
 <template>
   <section :class="`hero is-medium hero-theme-${computedTheme}`">
-    <img
-      class="hero-bg-img"
-      :src="responsiveImage.src"
-      :lazy="false"
-      :srcset="responsiveImage.srcSet"
-    />
-    <div class="hero-body">
-      <div class="container">
-        <h1 class="title animated fadeInUp">
-          {{ title }}
-        </h1>
-        <h2 class="subtitle animated fadeInUp slower">
-          {{ subtitle }}
-        </h2>
-        <br />
-        <div
-          v-if="$slots.default"
-          class="under-subtitle animated fadeInDown slower"
-        >
-          <slot />
+    <div class="wrap-banner">
+      <div class="hero-body">
+        <img
+          class="hero-bg-img"
+          :src="responsiveImage.src"
+          :lazy="false"
+          :srcset="responsiveImage.srcSet"
+        />
+
+        <div class="container">
+          <h1 class="title animated fadeInUp">
+            {{ title }}
+          </h1>
+          <h2 class="subtitle animated fadeInUp slower">
+            {{ subtitle }}
+          </h2>
+          <br />
+          <div
+            v-if="$slots.default"
+            class="under-subtitle animated fadeInDown slower"
+          >
+            <slot />
+          </div>
         </div>
+      </div>
+      <div class="mush-particles">
+        <vue-particles
+          color="#ff0000"
+          :particle-opacity="0.7"
+          lines-color="#ffffff"
+          :particles-number="80"
+          shape-type="circle"
+          :particle-size="5"
+          :lines-width="2"
+          :line-linked="true"
+          :line-opacity="0.4"
+          :lines-distance="150"
+          :move-speed="3"
+          :hover-effect="true"
+          hover-mode="grab"
+          :click-effect="true"
+          click-mode="push"
+        ></vue-particles>
       </div>
     </div>
   </section>
@@ -153,5 +175,22 @@ export default {
   .under-subtitle strong {
     text-shadow: 1px 1px 2px white;
   }
+}
+
+.mush-particles {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.wrap-banner {
+  position: relative;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 100%;
+  justify-content: center;
 }
 </style>

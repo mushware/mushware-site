@@ -73,6 +73,7 @@
     "sass-loader": "^7.1.0",
     "sharp": "^0.22.1",
     "vue": "^2.6.11",
+    "vue-particles": "^1.0.9",
     "vue-server-renderer": "^2.6.11",
     "vue-template-compiler": "^2.6.11"
   }
