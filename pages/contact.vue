@@ -20,7 +20,7 @@
               <br />
               <div class="content">
                 <p>
-                  Fill in the details below or mail <a href="info@mushware.com">info@mushware.com</a>
+                  Fill in the details below or mail <a href="mailto:info@mushware.com">info@mushware.com</a>
                   to get in touch.
                 </p>
               </div>
