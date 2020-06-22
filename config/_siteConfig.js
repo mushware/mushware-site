@@ -34,6 +34,7 @@ export default {
       name: 'Mushware on Github',
       link: 'https://github.com/mushware/adanaxis',
       target: '_blank'
+    }
   ],
   hero: {
     theme: 'dark' // options: mist, light, dark
