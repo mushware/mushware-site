@@ -50,6 +50,17 @@
         ></textarea>
       </div>
     </div>
+    <!-- File -->
+    <div class="field">
+      <label class="label is-medium">Message</label>
+      <div class="control">
+        <input
+          class="input is-medium"
+          type="file"
+          placeholder="Attach file if required (and less than 1MB)"
+        />
+      </div>
+    </div>
     <div class="control">
       <button class="button is-primary">
         Contact Us
