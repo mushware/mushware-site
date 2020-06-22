@@ -47,7 +47,7 @@ export default {
   disqus: {
     on: true,
     loadingStrategy: 'button', // Options: onload, lazy, button
-    siteShortName: 'blog-mushware-com' // 'blog-danielkelly-io'
+    siteShortName: 'mushware' // 'blog-danielkelly-io'
   },
 
   // Newsletter Subscribe
