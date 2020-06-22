@@ -1,5 +1,5 @@
 <template>
-  <form>
+  <form name="contact" method="POST" data-netlify="true">
     <!-- Name -->
     <div class="field">
       <label class="label is-medium">Name</label>
@@ -44,9 +44,20 @@
       <div class="control">
         <textarea
           class="textarea"
-          placeholder="Detailed description of your comment, request, etc"
+          placeholder="Your message..."
           rows="8"
         ></textarea>
+      </div>
+    </div>
+    <!-- File -->
+    <div class="field">
+      <label class="label is-medium">Message</label>
+      <div class="control">
+        <input
+          class="input is-medium"
+          type="file"
+          placeholder="Attach file (if any)"
+        />
       </div>
     </div>
     <div class="control">

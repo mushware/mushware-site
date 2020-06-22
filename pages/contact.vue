@@ -20,16 +20,8 @@
               <br />
               <div class="content">
                 <p>
-                  <strong>
-                    Edit this page in<code>/pages/contact.vue</code>to fit your
-                    needs.
-                  </strong>
-                </p>
-                <p>
-                  This form doesn't actually work but would be easy enough to
-                  slap an action on to have it post wherever you'd like. Or put
-                  the netlify attribute on it and have netlify handle all your
-                  form submissions...
+                  Fill in the details below or mail <a href="info@mushware.com">info@mushware.com</a>
+                  to get in touch.
                 </p>
               </div>
             </article>
