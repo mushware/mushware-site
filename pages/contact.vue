@@ -21,7 +21,8 @@
               <div class="content">
                 <p>
                   Fill in the details below or mail <a href="mailto:info@mushware.com">info@mushware.com</a>
-                  to get in touch.
+                  to get in touch.  For Adanaxis bugs you can also
+                  <a href="https://github.com/mushware/adanaxis/issues"> raise issues on Github</a>.
                 </p>
               </div>
             </article>
