@@ -1,9 +1,6 @@
 <template>
   <form name="contact" method="POST" netlify-honeypot="comment" data-netlify="true" data-netlify-recaptcha="true">
     <input type="hidden" name="form-name" value="contact">
-    <p class="hidden">
-      <label>Comment: <input name="comment" /></label>
-    </p>
     <!-- Name -->
     <div class="field">
       <label class="label is-medium">Name</label>
@@ -64,6 +61,9 @@
         />
       </div>
     </div>
+    <p style="visibility:hidden">
+      <label>Comment: <input name="comment" /></label>
+    </p>
     <div data-netlify-recaptcha="true"></div>
     <div class="control">
       <button class="button is-primary">
