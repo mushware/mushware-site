@@ -1,8 +1,8 @@
 ---
-title: Adanaxis rebuild
-subtitle: Dragging the Windwos installer into 2020
+title: Adanaxis is back!
+subtitle: Dragging the Windows installer into 2020
 category:
-  - About Mushware
+  - Adanaxis
 author: Andy Southgate
 date: 2020-05-23T17:24:48.050Z
 featureImage: /uploads/mushware-release.jpg
