@@ -5,7 +5,12 @@
     <div class="field">
       <label class="label is-medium">Name</label>
       <div class="control has-icons-left">
-        <input class="input is-medium" type="text" placeholder="John Smith" />
+        <input
+          class="input is-medium"
+          name="name"
+          type="text"
+          placeholder="John Smith"
+        />
         <span class="icon is-small is-left">
           <font-awesome-icon icon="user" />
         </span>
@@ -17,6 +22,7 @@
       <div class="control has-icons-left">
         <input
           class="input is-medium"
+          name="email"
           type="email"
           placeholder="you@email.com"
         />
@@ -31,6 +37,7 @@
       <div class="control has-icons-left">
         <input
           class="input is-medium"
+          name="subject"
           type="text"
           placeholder="Brief Summary"
         />
@@ -45,6 +52,7 @@
       <div class="control">
         <textarea
           class="textarea"
+          name="message"
           placeholder="Your message..."
           rows="8"
         ></textarea>
@@ -56,13 +64,16 @@
       <div class="control">
         <input
           class="input is-medium"
+          name="file"
           type="file"
           placeholder="Attach file if required (and less than 1MB)"
         />
       </div>
     </div>
     <p style="visibility:hidden">
-      <label>Comment: <input name="comment" /></label>
+      <label>Comment: 
+        <input name="comment" />
+      </label>
     </p>
     <div data-netlify-recaptcha="true"></div>
     <div class="control">
